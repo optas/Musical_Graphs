@@ -68,5 +68,5 @@ class VertexEdgeDb:
         return src, dst
 
 if __name__ == '__main__':
-    s = readMidiFile('midi/teddybear.mid')
+    s = readMidiFile('../data/midi/teddybear.mid')
     g = buildGraph(s)
