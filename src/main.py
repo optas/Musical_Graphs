@@ -2,7 +2,7 @@
 
 import sys
 import graph_tool as gt
-sys.path.append('/lfs/local/0/optas/Oasis/music_graph/music21')
+sys.path.append('../music21_library')
 import music21 as m21
 
 def readMidiFile(file_path):
